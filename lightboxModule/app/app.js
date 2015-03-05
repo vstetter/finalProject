@@ -19,7 +19,7 @@
 
     });
 
-}(angular.module("lightboxModule", [
+}(angular.module("storeApp", [
     'ngRoute',
-    'LBStore'
+    'lbstore'
 ])));
