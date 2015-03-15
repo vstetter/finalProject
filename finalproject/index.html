@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/bower_components/fontawesome/css/font-awesome.css">
+<link rel="stylesheet" href="assets/css/compiled.css">
+  <title>tot spot</title>
+</head>
+<body ng-App="ChasKids">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#/">tot spot</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#/favorites">Favorites</a>
+          </li>
+          <li>
+            <a href="#/map">Map</a>
+          </li>
+          <li>
+            <a href="#/suggestions">Suggestions</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/#/adminlist">Admin</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <div class="container">
+    <ng-view>
+      <!--Angular views go here -->
+    </ng-view>
+
+  </div>
+
+  <!-- VENDOR SCRIPTS -->
+  <script src="assets/bower_components/lodash/dist/lodash.js"></script>
+  <script src="assets/bower_components/jquery/dist/jquery.js"></script>
+  <script src="assets/bower_components/angular/angular.js"></script>
+  <script src="assets/bower_components/angular-route/angular-route.js"></script>
+  <script src="assets/bower_components/angular-google-maps/dist/angular-google-maps.js"></script>
+  <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--   <script src="assets/bower_components/bootstrap/dist/js/bootstrap.js"></script> -->
+
+  <!-- APP SCRIPTS -->
+  <script src="app.js"></script>
+  <script src="service.js"></script>
+  <script src ="admin/adminController.js"></script>
+  <script src ="admin/adminModule.js"></script>
+  <script src ="user/userController.js"></script>
+  <script src ="user/userModule.js"></script>
+
+</body>
+</html>

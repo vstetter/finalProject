@@ -1,0 +1,105 @@
+ELevator
+
+This app will help users find venues for kids' activities and birthday parties in Charleston, SC.
+
+
+
+MVP features:
+
+
+- list of venues by type of activity, showing key information and link to main website
+- detail view for each selected venue
+- allow users to leave comments for a venue
+- allow users to make suggestions for venues not yet included
+- authentication for admin login
+
+
+
+Additional features (stretch goals):
+
+- add google places
+- add google maps
+
+
+
+
+Block off elements of main splash page.
+ - Acceptance criteria:
+    Create a basic layout of splash page according to wireframe.
+ - Notes:
+    use Bootstrap rows/columns and navbar
+    set up routes in Angular
+
+
+Block off elements of user listview page.
+ - Acceptance criteria:
+    Create a basic layout of listview page according to wireframe.
+ - Notes:
+    use Bootstrap rows/columns and navbar
+    set up routes in Angular
+
+
+Block off elements of user detail view page.
+ - Acceptance criteria:
+    Create a basic layout of detail page according to wireframe.
+ - Notes:
+    use Bootstrap rows/columns and navbar
+    set up routes in Angular
+
+Add design and styling to views.
+-  Acceptance criteria:
+    Create logo, color theme, fontstack
+    Add Sass/css styling.
+
+
+User stories (in addition to what we wrote on Github):
+
+Ability to CRUD venues that are available for app.
+
+ - Value statement:
+    As an admin user,
+    I want the ability to create venues
+    so that users can see what is available.
+ - Assumptions:
+    We can assume that we know which venues we will add.
+    We can assume that only the admin can add/edit/delete venues.
+ - Acceptance criteria:
+    Admin is able to create a venue
+    Admin is able to edit a venue
+    Admin is able to delete a venue
+    Admin is able to read a venue
+ - Notes:
+      set up Angular admin views, controller, service
+      create forms for adding and editing venue
+
+
+Ability to add a venue to favorites.
+
+ - Value statement:
+    As a user,
+    I want the ability to "like" a venue and add it to my favorites
+    so that I can store my favorites in one easily accessible place.
+ - Acceptance criteria:
+    User is able to add venue to favorites.
+    User is able to view all favorited venues in a favorites view.
+
+
+Ability to add comments to a venue.
+- Value statement:
+    As a user,
+    I want to be able to add a comment to a venue,
+    so that I can give my feedback to other users viewing the app.
+-Acceptance criteria:
+    User can add a comment on detail view page.
+    User can submit comment.
+    User cannot edit comment once submitted.
+
+
+Ability to add suggestions for a new venue.
+- Value statement:
+    As a user,
+    I want to be able to add my own suggestions for venues that are not yet featured on the site,
+    so that other users can find out about it, too.
+- Acceptance criteria:
+    User can fill in a form and add a suggestion in a textarea.
+    User can submit that form so it can be reviewed by app managers.
