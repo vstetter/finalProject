@@ -18,8 +18,8 @@
     .otherwise({
       redirectTo: '/not_found'
      })
-    });
+    })
 
-      // .constant('_', _)
+    .constant('_', _)
 
  })();

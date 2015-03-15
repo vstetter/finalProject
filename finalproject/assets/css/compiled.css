@@ -1,4 +1,15 @@
 body {
   margin-top: 50px; }
 
+* {
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+  a:visited {
+    color: inherit; }
+
 /*# sourceMappingURL=compiled.css.map */

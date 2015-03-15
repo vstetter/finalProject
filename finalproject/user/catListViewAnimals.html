@@ -1,11 +1,11 @@
 
 
 <div class="container container-list">
-  <div class="routeLinks">
-    <a href="#/"><span class="fa-lg">
-      <i class="fa fa-home"></i>
-    </span>Home</a>
-  </div>
+<!--   <div class="routeLinks">
+  <a href="#/"><span class="fa-lg">
+    <i class="fa fa-home"></i>
+  </span>Home</a>
+</div> -->
   <div class="searchbox-wrapper">
     <input ng-model="query" type="text" name="searchbox" placeholder="filter venues">
   </div>
@@ -39,7 +39,7 @@
 
       </div>
       <div class="col-md-2">
-        <a href="#/details/:venueId" class="btn btn-default">More Details</a>
+        <a href="#/details/{{venue._id}}" class="btn btn-default">More Details</a>
         <a href="" class="btn btn-default">Website</a>
       </div>
     </li>
